@@ -44,3 +44,5 @@ mongoose.connect(`mongodb+srv://${process.env.DATABASE_USER}:${process.env.DATAB
   app.use('/api/auth', userRoutes);
   
   module.exports = app;
+
+  
